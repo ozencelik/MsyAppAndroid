@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/three_margin"
+            android:paddingRight="@dimen/three_margin"
+            android:paddingTop="56dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="267dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/six_margin"
+                android:src="@mipmap/msy_icon" />
+
+
+            <!--  Name Label -->
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/three_margin"
+                android:layout_marginRight="@dimen/three_margin"
+                android:hint="@string/name_text"
+                android:inputType="textCapWords" />
+
+            <!--  SurName Label -->
+
+            <EditText
+                android:id="@+id/input_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/three_margin"
+                android:layout_marginRight="@dimen/three_margin"
+                android:hint="@string/surname_text"
+                android:inputType="textCapWords" />
+
+            <!-- Email Label -->
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/three_margin"
+                android:layout_marginRight="@dimen/three_margin"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <!-- Password Label -->
+
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/three_margin"
+                android:layout_marginRight="@dimen/three_margin"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <!-- Signup Button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_margin"
+                android:layout_marginLeft="@dimen/four_margin"
+                android:layout_marginRight="@dimen/four_margin"
+                android:layout_marginTop="@dimen/four_margin"
+                android:padding="12dp"
+                android:text="@string/create_account" />
+
+            <TextView
+                android:id="@+id/link_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/three_margin"
+                android:gravity="center"
+                android:text="@string/member_message"
+                android:textSize="12dip" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

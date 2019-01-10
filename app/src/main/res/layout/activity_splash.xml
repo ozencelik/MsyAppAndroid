@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mountain">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:src="@color/transparent_white"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/msy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@mipmap/msy_icon"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/splashscreen"
+        app:layout_constraintEnd_toEndOf="@+id/splashscreen"
+        app:layout_constraintStart_toStartOf="@+id/splashscreen"
+        app:layout_constraintTop_toTopOf="@+id/splashscreen"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

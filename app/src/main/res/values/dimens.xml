@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+
+    <dimen name="main_activity_horizontal_margin">8dp</dimen>
+    <dimen name="main_activity_vertical_margin">8dp</dimen>
+
+    <dimen name="main_activity_margin_bottom">60dp</dimen>
+
+    <dimen name="button_border_width">110dp</dimen><!--Profile fragment button borders-->
+    <dimen name="button_border_height">35dp</dimen>
+
+    <dimen name="personel_best_width">90dp</dimen>
+    <dimen name="personel_best_height">90dp</dimen>
+
+    <dimen name="width">420dp</dimen>
+    <dimen name="height">270dp</dimen>
+
+    <dimen name="card_view_margin">1dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="one_margin">8dp</dimen>
+    <dimen name="two_margin">16dp</dimen>
+    <dimen name="three_margin">24dp</dimen>
+    <dimen name="four_margin">32dp</dimen>
+    <dimen name="five_margin">48dp</dimen>
+    <dimen name="six_margin">64dp</dimen>
+
+    <dimen name="corner_radius">40dp</dimen>
+
+
+    <dimen name="recycler_view_left_offset">61dp</dimen>
+    <dimen name="left_offset">61dp</dimen>
+    <dimen name="card_width">148dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+
+</resources>

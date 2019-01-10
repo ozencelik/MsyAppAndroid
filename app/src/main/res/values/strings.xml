@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Msy</string>
+
+
+    <!--VideoActivity-->
+    <string name="login_button">LogIn</string>
+    <string name="signup_button">SignUp</string>
+
+
+    <!--ActivityLogin-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="option_text">---------------   OTHER OPTION   ---------------</string>
+    <string name="google_text">google</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="create_account_message">Do not you have an account yet? Create it now</string>
+    <string name="login_text">Log in...</string>
+
+
+    <!--ActivityOnBoarding-->
+    <string name="back_button">Back</string>
+    <string name="next_button">Next</string>
+    <string name="travel_header">Travel</string>
+    <string name="travel_details">Travel and discover your world with your new friends.</string>
+    <string name="friends_header">Make Friends</string>
+    <string name="friends_details">Lorem ipsum dolor simet</string>
+    <string name="discover_header">Discover The World</string>
+    <string name="discover_details">Lorem ipsum dolor simet</string>
+
+    <!--ActivitySignUp-->
+    <string name="name_text">Name</string>
+    <string name="surname_text">Surname</string>
+    <string name="create_account">Create Account</string>
+    <string name="member_message">Are you already a member? Log in</string>
+    <string name="signup_text">Account is being created...</string>
+
+
+
+
+</resources>

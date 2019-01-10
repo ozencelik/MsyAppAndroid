@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/three_margin"
+            android:paddingRight="@dimen/three_margin"
+            android:paddingTop="56dp">
+
+            <ImageView
+                android:layout_width="267dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/two_margin"
+                android:src="@mipmap/msy_icon" />
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="@dimen/six_margin"
+                android:layout_marginRight="@dimen/six_margin"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textSize="16dip" />
+
+            <!-- Email Label -->
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/three_margin"
+                android:layout_marginRight="@dimen/three_margin"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:text="ozenc.celik@msy.com" />
+
+            <!-- Password Label -->
+
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/three_margin"
+                android:layout_marginRight="@dimen/three_margin"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:text="123456" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/one_margin"
+                android:layout_marginLeft="@dimen/four_margin"
+                android:layout_marginRight="@dimen/four_margin"
+                android:layout_marginTop="@dimen/four_margin"
+                android:padding="12dp"
+                android:text="@string/login_button" />
+
+            <TextView
+                android:id="@+id/other_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_margin"
+                android:layout_marginBottom="@dimen/one_margin"
+                android:gravity="center"
+                android:text="@string/option_text"
+                android:textSize="12dip" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_margin"
+                android:layout_marginLeft="39dp"
+                android:layout_marginRight="@dimen/four_margin">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_google"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:text="@string/google_text" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_face"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:text="@string/facebook_text" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/link_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/three_margin"
+                android:gravity="center"
+                android:text="@string/create_account_message"
+                android:textSize="12dip" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
